@@ -1,0 +1,27 @@
+
+#include <stdio.h>
+#include<conio.h>
+
+int c;
+
+int
+product (int x, int y)
+{
+  return (x * y);
+
+}
+
+
+int
+main (void)
+{
+  int a;
+  int b;
+
+  scanf ("%d,", &a);
+  scanf ("%d,", &b);
+  c = product (a, b);
+  printf ("%d", c);
+  return 0;
+  getch ();
+}
